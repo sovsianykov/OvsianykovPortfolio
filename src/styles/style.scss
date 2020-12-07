@@ -1,7 +1,36 @@
+//General Styles
+@import './variables';
+@import './maps';
 * {
   padding: 0 ;
   margin: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'Dosis', sans-serif;
+  src: url("../fonts/Dosis-VariableFont_wght.ttf");
+}
+body {
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+  color: color('dark');
+}
+ul {
+  list-style: none ;
+}
+h2, h3, h4 {
+  text-transform: uppercase;
+}
+img {
+  width: 100%;
+}
+
+
+
+
 
 
