@@ -16,7 +16,7 @@ let path = {
         fonts: 'build/fonts/'
     },
     src: {
-        html: 'src/index.html',
+        html: 'src/**/*.html',
         js: 'src/js/script.js',
         css: 'src/styles/style.scss',
         img: 'src/img/**/*.*',
