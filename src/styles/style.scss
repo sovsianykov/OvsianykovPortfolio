@@ -1,18 +1,18 @@
 //General Styles
-@import './variables';
-@import './maps';
-@import './utility';
+@import "./variables";
+@import "./maps";
+@import "./utility";
 * {
-  padding: 0 ;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 @font-face {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   src: url("../fonts/Dosis-VariableFont_wght.ttf");
 }
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   line-height: 1.6;
   background: #fff;
 }
@@ -21,28 +21,26 @@ h1 {
 }
 a {
   text-decoration: none;
-  color: color('dark');
+  color: color("dark");
 }
 ul {
-  list-style: none ;
+  list-style: none;
 }
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   text-transform: uppercase;
 }
 img {
   width: 100%;
   color: #ffffff;
   text-transform: uppercase;
-
 }
 //logo
 #logo {
   width: 83px;
   height: 70px;
-
-
 }
-
 
 //main nav
 
@@ -52,16 +50,16 @@ img {
   padding-top: 1rem;
   ul {
     display: flex;
-    li{
+    li {
       padding: 1rem 1.5rem;
     }
     a {
       text-decoration: none;
       color: #ffffff;
       text-transform: uppercase;
-      border-bottom: 3px  transparent solid;
-      padding-bottom: .5rem ;
-      transition: background-color 0.5s ;
+      border-bottom: 3px transparent solid;
+      padding-bottom: 0.5rem;
+      transition: background-color 0.5s;
       &:hover {
         border-color: $medium-color;
       }
@@ -72,14 +70,14 @@ img {
   }
 }
 
-li{
+li {
   padding: 1rem;
 }
- //Header
+//Header
 
-#header{
-  &-home{
-background: $bg-image no-repeat center right / cover;
+#header {
+  &-home {
+    background: $bg-image no-repeat center right / cover;
     height: 100vh;
     color: #ffffff;
 
@@ -93,9 +91,29 @@ background: $bg-image no-repeat center right / cover;
     }
   }
   &-inner {
-
+    background: $bg-image no-repeat 20% 30% / cover;
+    height: 5.5rem;
+    color: #ffffff;
+    border-bottom: 3px solid $main-color;
   }
 }
+//About
+#about {
+  &-a {
+    .about-info {
+      display: grid;
+      grid-template-areas: "bioimage bio bio";
+      grid-gap: 1.2rem;
+    }
 
-
-
+    //Grid area
+    .bio-image {
+      grid-area: bioimage;
+    }
+    .bio {
+      grid-area: bio;
+      border-left: 3px solid $main-color;
+      padding: 0.8rem;
+    }
+  }
+}

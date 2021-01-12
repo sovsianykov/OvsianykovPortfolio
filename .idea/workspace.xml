@@ -4,8 +4,12 @@
     <list default="true" id="7236ef32-e0c1-4c03-8eac-f1b5a3721032" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/about.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_utility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_utility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Work\PortfolioUDEMY\OvsianykovPortfolio\node_modules\prettier" />
@@ -58,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\PortfolioUDEMY\OvsianykovPortfolio\build" />
       <recent name="D:\Work\PortfolioUDEMY\OvsianykovPortfolio\src" />
       <recent name="D:\Work\PortfolioUDEMY\OvsianykovPortfolio" />
       <recent name="D:\Work\PortfolioUDEMY\OvsianykovPortfolio\src\img" />
@@ -95,7 +100,7 @@
       <workItem from="1610384811945" duration="1320000" />
       <workItem from="1610387643483" duration="127000" />
       <workItem from="1610438407253" duration="692000" />
-      <workItem from="1610442801433" duration="5594000" />
+      <workItem from="1610442801433" duration="9154000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1607360957303</created>
@@ -118,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610447924729</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="about">
+      <created>1610448408683</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610448408683</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
